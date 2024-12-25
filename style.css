@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg78.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0);
+    height: 60vh;
+    width: 80vh;
+    margin-top: 23vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 10px black;
+}
+.clock{
+    height: 100%;
+    color: rgba(246, 19, 80, 0.746);
+    -webkit-text-stroke: 1px white
+}
+.clock1{
+    height: 60vh;
+    width: 55%;
+}
+.clock2{
+    height: 60vh;
+    width: 45%;
+}
+#hrs{
+    height: 30%;
+    text-align: center;
+    font-size: 150px;
+}
+#colon{
+    height:32% ;
+    font-size: 150px;
+    text-align: center;
+}
+#min{
+    height: 30%;
+    font-size: 150px;
+    text-align: center;
+}
+#date{
+    height: 10%;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+#month{
+    height: 10%;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+#year{
+    height: 10%;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+#day{
+    height: 10%;
+    font-size: 60px;
+    margin-bottom: 38%;
+}
+#am{
+    height: 15%;
+    font-size: 60px;
+}
+#sec{
+    height: 20%;
+    font-size: 60px;
+}
